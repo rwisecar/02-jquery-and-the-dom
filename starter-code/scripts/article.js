@@ -9,7 +9,7 @@ function Article (opts) {
   this.authorUrl = opts.authorUrl;
   this.publishedOn = opts.publishedOn;
   this.body = opts.body;
-}
+};
 
 Article.prototype.toHtml = function() {
   var $newArticle = $('article.template').clone();
